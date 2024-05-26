@@ -1,0 +1,40 @@
+*{
+    font-family: calibri;
+    text-align: center;
+}
+
+button{
+    cursor: pointer;
+}
+
+.mS_selected{
+    border-color: red;
+}
+
+.ssp_dev{
+    box-sizing: border-box;
+    display: grid;
+    grid-template-columns: auto auto;
+    width: 100%;
+    background: gray;
+    border-radius: 10px;
+    gap: 5px;
+    padding: 10px;
+    box-shadow: 0px 0px 8px 1px #000000;
+}
+
+#p1_result, #p2_result {
+    font-size: 30px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+}
+
+#p1_out, #p2_out {
+    font-size: 30px;
+    background-color: gray;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: inset 0px 0px 5px 0px #000000;
+}

@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Schere ⬅️➡️ Stein ⬅️➡️ Papier</title>
+        <link rel="stylesheet" href="stylesheets/dev.css"> 
+    </head>
+    <body>
+        <script src="ssp.js"></script>
+        <script src="stylesheets/dev.js"></script>
+        <h1>Willkommen 😉</h1>
+        <hr>
+        <div id="modeSwitch">
+            <button id="Bswitch" class="mS_selected" onclick="initBotGame()">Spiel gegen Bots</button>
+            <button style="background-color: black;" id="Mpswitch" onclick="initMpGame()">Local Multiplayer</button>
+        </div>
+        <hr>
+        <div class="ssp_dev">
+            <div id="p1_result"></div><div id="p2_result"></div>
+            <div>Player 1</div><div>Player2</div>
+            <div id="p1_out">🪨</div><div id="p2_out">❓</div>
+            <input id="p1_in" value="Stein"><input style="opacity: 0;" id="p2_in" value="Papier">
+            <hr style="grid-column: 1 / span 2; width: 100%;">
+            <button style="grid-column:1 / span 2;" onclick="startGame()">Play</button>
+        </div>
+    </body>
+</html>
